@@ -17,6 +17,7 @@
 Based on the Giveaway site https://playr.gg/ and is used to crack secret-codes.
 
 WARNING: Please do not overspam it as you can get banned for it. If this is the case, please create an Isssue and I can solve this and set up a new account.
+
 NOTE: If you feel that you want to be extra safe, please use a **Virtual Private Network (VPN)**.
 
 # Installation
