@@ -1,5 +1,6 @@
 import time
 import math
+import re
 from base.utils.common import process_code_name, process_code_length, process_zeros, process_possible_titles
 
 from PyQt5.QtCore import QRunnable, QThreadPool, pyqtSlot, pyqtSignal, QObject, Qt
@@ -245,7 +246,7 @@ class task:
                 kwargs.update(retried=True)
                 self._guess(*args, **kwargs)
 
-        if post in ['{"data":{"codes_remain":true,"entries":10000},"result":true}', '{"data":{"codes_remain":false,"entries":10000},"result":true}']: # success
+        if re.search('{"data":{"codes_remain":(true|false),"entries":\d+},"result":true}', post): # success
             print(f"\nCode: {code} got a response of {post}")
             self.logger.emit(f"TYPES=[(#0c5d09, BOLD), CODE: \"{code}\" was a success!]", {})
             self.success_codes.append(code)
