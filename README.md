@@ -17,7 +17,7 @@
 
 # Note
 
-This repository was original private due to the nature of it. However, I created this 2 years ago and by now it is out of date and presumeably does not work due to how I've seen how secret codes are distributed now (way better than before).
+This repository was originally private due to the nature of it. However, I created this 2 years ago and by now it is out of date and presumeably does not work due to how I've seen how secret codes are distributed now (way better than before).
 Therefore I decided to make it public for anyone that wants to use it for educational-purposes.
 
 ---------------------------------------------------------------
