@@ -14,11 +14,17 @@
 </p>
 
 #
+
+# Note
+
+This repository was original private due to the nature of it. However, I created this 2 years ago and by now it is out of date and presumeably does not work due to how I've seen how secret codes are distributed now (way better than before).
+Therefore I decided to make it public for anyone that wants to use it for educational-purposes.
+
+---------------------------------------------------------------
+
 Based on the Giveaway site https://playr.gg/ and is used to crack secret-codes.
 
 WARNING: Please do not overspam it as you can get banned for it. If this is the case, please create an Isssue and I can solve this and set up a new account.
-
-NOTE: If you feel that you want to be extra safe, please use a **Virtual Private Network (VPN)**.
 
 # Installation
 
